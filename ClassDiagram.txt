@@ -1,3 +1,4 @@
 // Class diagram
 
-[Student|-age:Unlimited/Natural;-height:Real;-name:string;-classCount:Integer;-graduated:Boolean]
+[Student|-age:Unlimited/Natural;-height:Real;-name:String;-classCount:Integer;-graduated:Boolean
+|+assignScore(:Integer):Boolean;-synchronizeData(test:Integer);#maxClasses():Unlimited/Natural;__+defaultData():String__]
